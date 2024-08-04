@@ -1,0 +1,46 @@
+html, body, #root, .app-container {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-image: url('https://www.baltana.com/files/wallpapers-24/Pizza-Background-HD-Wallpapers-61693.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-body .btn {
+  margin: 5px 0;
+}
+
+.card-body .btn {
+  margin: 5px 15px 5px 9px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px 0;
+}
