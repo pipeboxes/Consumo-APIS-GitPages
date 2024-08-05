@@ -17,7 +17,7 @@ header {
   background-position: center;
   color: black;
   font-weight: 700;
-  text-shadow: 2px 2px 0 rgb(240, 241, 153);
+  text-shadow: 2px 2px 0 rgb(255, 255, 255);
   font-size: 20px;
   text-align: center;
   padding: 60px 20px;
@@ -27,14 +27,10 @@ header {
 .main-content {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .card {
   width: 100%;
-  margin-right: 200px;
-  align-items: center;
 }
 
 .card-deck {
